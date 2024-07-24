@@ -1,5 +1,5 @@
 # ETL_Harvard_Complexity_Economics
-Proyecto de ETL para base de datos de complejidad económica (comex).
+Proyecto de ETL para base de datos de complejidad económica de Harvard.
 
 En el notebook ETL encontrarán dos formas (una fallida y una exitosa) de extraer la base de datos compuesta por 60 archivos ".dta". 
 Una vez cargados, intenté mergearlos pero me tiró un error debido a que los data types eran diferentes entre las columnas.
