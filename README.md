@@ -1,10 +1,6 @@
 # ETL_Harvard_Complexity_Economics
-Proyecto de ETL para base de datos de complejidad económica de Harvard.
+ETL Project for Harvard's Economic Complexity Database
 
-En el notebook ETL encontrarán dos formas (una fallida y una exitosa) de extraer la base de datos compuesta por 60 archivos ".dta". 
-Una vez cargados, intenté mergearlos pero me tiró un error debido a que los data types eran diferentes entre las columnas.
-Iteré sobre cada archivo para identificar esos errores y lo solucioné.
-Luego exporté dos datasets, uno con todos los paises y otro con países de interés para estudiar (Argentina, Brasil, Indonesia, Tailandia, Corea del Sur y Malasia).
-Ambos con 6 productos elegidos de comercio entre países (sector secundario).
+In the ETL notebook, you’ll find two approaches (one failed and one successful) to extracting the database composed of 60 .dta files. Once loaded, I attempted to merge them but encountered an error due to differing data types across columns. I iterated through each file to identify and fix these issues. Finally, I exported two datasets: one containing all countries and another focused on countries of interest for analysis (Argentina, Brazil, Indonesia, Thailand, South Korea, and Malaysia). Both datasets include six selected products from international trade in the secondary sector.
 
-En el notebook ETL2 hice un proceso de transformación de datos para obtener los totales para cada país.
+In the ETL2 notebook, I performed data transformation processes to calculate total values for each country.
